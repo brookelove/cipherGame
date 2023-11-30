@@ -1,8 +1,7 @@
 import React, {useRef }from 'react'
 import "../assets/CSS/Home.css"
 import { Link as ScrollLink } from 'react-scroll';
-import threeDBalls from "../assets/Videos/shapes.mp4"
-import Instructions from './Instructions';
+import threeDBalls from "../assets/Videos/shapes.mp4";
 
 const Home = () => {
   const targetRef = useRef(null);

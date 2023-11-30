@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
-import Home from './pages/Home';
-import Overview from './pages/Overview';
-import LevelPage from './pages/LevelPage';
-import Simple from './pages/Simple';
-import Instructions from './pages/Instructions';
+// import Home from './pages/Home';
+// import Overview from './pages/Overview';
+// import LevelPage from './pages/LevelPage';
+// import Simple from './pages/Simple';
+// import Instructions from './pages/Instructions';
+import { Overview, Home , Instructions, LevelPage, Simple} from "./pages";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {

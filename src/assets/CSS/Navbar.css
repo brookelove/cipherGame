@@ -13,6 +13,12 @@ header .home {
     font-weight: 800;
     border-radius: 5px;
     background-color: var(--primary);
+    border: 1px solid transparent;
+    transition: all ease-in 0.3;
+}
+header .home:hover {
+  border: 1px solid var(--opposite);
+  color: var(--opposite);
 }
 header section {
   width: 10%;

@@ -1,5 +1,18 @@
 .instruction-container {
-    height:100vw;
-    color  : black; 
-
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.instruction-container h1 {
+    color: var(--opposite);
+    font-size: 300%;
+}
+.instruction-container div {
+    width: 20%;
+}
+.instruction-container div button{
+  padding:5%
 }

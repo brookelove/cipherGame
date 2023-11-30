@@ -53,6 +53,7 @@
 }
 a {
   text-decoration: none;
+  color: #140f0b;
 }
 .box-shadow {
   box-shadow: var(--box-shadow)
@@ -60,4 +61,16 @@ a {
 main {
   background-color: var(--lightBackground);
   color: var(--primary-text);
+}
+button {
+  border: 1px solid transparent;
+  box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.5);
+  margin: 2%;
+  padding:1% 2%;
+  border-radius: 25px;
+  transition: all ease-in-out 0.5s;
+}
+button:hover {
+  border: 1px solid black;
+  box-shadow: -10px 5px 10px rgba(0, 0, 0, 0.5);
 }
