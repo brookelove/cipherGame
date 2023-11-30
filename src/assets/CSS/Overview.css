@@ -7,6 +7,7 @@
 .overview-section h1 {
     padding: 2% 0;
     font-size: 200%;
+    font-weight: 700;
     text-transform: uppercase;
     color: var(--opposite);
 }
@@ -34,4 +35,5 @@
     color: var(--extra);
     background-color: var(--muted);
     border: 3px solid var(--extra);
+    box-shadow: -10px 5px 10px rgba(0, 0, 0, 0.5);
 }
