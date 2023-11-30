@@ -1,0 +1,27 @@
+.home-container {
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 5%;
+  } 
+.video-exclude {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    --background: var(--primary);
+}
+.video-overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  color: var(--opposite);
+  width: 100%;
+  height: 100%;
+}
+.video-overlay h1 {
+    font-size: 500%;
+}
