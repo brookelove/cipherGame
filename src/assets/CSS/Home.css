@@ -23,11 +23,13 @@
   height: 100%;
 }
 .video-overlay h1 {
-    font-size: 500%;
+    font-size: 1000%;
     text-transform: uppercase;
-  font-family: 'Gambetta', serif;
-  letter-spacing: -3px;
-  transition: 700ms ease;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    text-shadow: 2%;
+    text-shadow: 1px 4px 3px black;
 }
 .video-overlay h1:hover {
   font-variation-settings: "wght" 582; 
