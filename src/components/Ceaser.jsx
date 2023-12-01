@@ -8,6 +8,7 @@ const Ceaser = () => {
   const showHints = () => {
     // hint 1 : what is a type of salad and a cipher
     // hint 2 look at the salads when you hover me
+    
   }
   const checkAnswer = (e) => {
     e.preventDefault();
