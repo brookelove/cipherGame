@@ -77,3 +77,10 @@ button:hover {
 .fullpage{
   height: 100vh;
 }
+.none {
+  display: none
+}
+.hide {
+  background-color: transparent;
+  color: transparent;
+}
